@@ -29,7 +29,7 @@ public class ShopRepository {
         return products;
     }
 
-    public void remove(int id) {
+    private void remove(int id) {
 
         Product[] tmp = new Product[products.length - 1];
 
